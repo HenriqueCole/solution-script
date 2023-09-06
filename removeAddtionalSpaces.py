@@ -10,6 +10,6 @@ def remove_extra_spaces(title):
 df['TITULO'] = df['TITULO'].apply(remove_extra_spaces)
 
 # Saving the updated DataFrame to a new excel file
-df.to_excel('projetoswbemfinal_updated.xlsx', index=False)
+df.to_excel('projects_updated.xlsx', index=False)
 
 print("Excel file updated with extra spaces removed.")
